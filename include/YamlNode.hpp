@@ -18,6 +18,7 @@ namespace YamlParser
     class YamlNode
     {
     public:
+        ~YamlNode();
         std::string key;
         // std::string value;
         std::vector<T> value;
